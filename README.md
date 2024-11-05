@@ -17,8 +17,9 @@ agrupamento_facial/
 
 Antes de executar o projeto, certifique-se de que você possui as seguintes dependências instaladas:
 
-- NumPy: pip install numpy
 - DeepFace: pip install deepface
+- TQDM: pip install tqdm
+- GitPython: pip install gitpython
 - OpenCV: pip install opencv-python
 - Pillow: pip install Pillow
 - scikit-learn: pip install scikit-learn

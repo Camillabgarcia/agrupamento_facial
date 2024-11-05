@@ -25,17 +25,10 @@ Antes de executar o projeto, certifique-se de que você possui as seguintes depe
 - Matplotlib: pip install matplotlib
 - Google Colab: Se você estiver executando este código no Google Colab, algumas bibliotecas específicas do Colab serão necessárias.
 
-## Instalação
-1. Baixe o repositório do projeto diretamente do GitHub:
-   
-   Acesse o link:(https://github.com/Camillabgarcia/agrupamento_facial)
-   
-3. Faça o download do código pelo link: [Notebook Principal](https://github.com/Camillabgarcia/agrupamento_facial/blob/main/agrupamento_por_semelhan%C3%A7a.ipynb)
-
-4. Instale as dependências necessárias:
-   ```bash
-   pip install numpy deepface opencv-python Pillow scikit-learn matplotlib
-
+## Instalação   
+- Faça o download do código completo pelo link: [Notebook Principal](https://github.com/Camillabgarcia/agrupamento_facial/blob/main/agrupamento_por_semelhan%C3%A7a.ipynb)
+- No Google Colab, simplesmente abra o notebook e execute as células
+  
 ## Uso   
 1. Execute o script agrupamento_por_semelhanca.ipynb no Google Colab ou em um ambiente Jupyter Notebook.
 

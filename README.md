@@ -57,7 +57,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 import matplotlib.pyplot as plt
 
-5. O script irá:
+## Descrição do Código
 
 -Clonar o repositório do projeto, caso não exista localmente.
 

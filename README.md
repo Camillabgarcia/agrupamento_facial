@@ -6,15 +6,12 @@ biblioteca **DeepFace** e utiliza o algoritmo KMeans para agrupar as imagens de 
 **Estrutura do projeto**
 
 agrupamento_facial/
-│
-├── faces/                    # Diretório com as imagens de entrada
-│   ├── face1.jpg
-│   ├── face2.jpg
-│   └── ...
-│
-├── agrupamento_por_semelhança.ipynb    # Notebook principal
-│
-└── README.md                # Este arquivo
+
+- faces/                    # Diretório com as imagens de entrada
+
+- agrupamento_por_semelhança.ipynb    # Notebook principal
+
+- README.md                # Este arquivo
 
 ## Pré-requisitos
 

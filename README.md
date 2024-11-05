@@ -32,12 +32,10 @@ Antes de executar o projeto, certifique-se de que você possui as seguintes depe
    ```bash
    pip install numpy deepface opencv-python Pillow scikit-learn matplotlib
 
-## Uso
-1. Coloque as imagens a serem agrupadas no diretório ./faces.
-   
-2. Execute o script agrupamento_por_semelhanca.ipynb no Google Colab ou em um ambiente Jupyter Notebook.
+## Uso   
+1. Execute o script agrupamento_por_semelhanca.ipynb no Google Colab ou em um ambiente Jupyter Notebook.
 
-3. Importações necessária:
+2. Importações necessária:
    
 import os
 

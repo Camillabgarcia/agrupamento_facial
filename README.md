@@ -25,24 +25,25 @@ Antes de executar o projeto, certifique-se de que você possui as seguintes depe
 - Matplotlib: pip install matplotlib
 - Google Colab: Se você estiver executando este código no Google Colab, algumas bibliotecas específicas do Colab serão necessárias.
 
-## Uso   
+## Executando o Código   
 - Faça o download do código completo pelo link: [Notebook Principal](https://github.com/Camillabgarcia/agrupamento_facial/blob/main/agrupamento_por_semelhan%C3%A7a.ipynb)
-- No Google Colab, simplesmente abra o notebook e execute as células
+- Certifique-se de ter todas as dependências instaladas e execute o código em um ambiente Python.
+- O pipeline executa todas as etapas descritas, desde a clonagem do repositório até a visualização dos grupos finais de imagens.
 
 ## Descrição do Código
 
--Clonar o repositório do projeto, caso não exista localmente.
+1. Clonagem do Repositório: O código clona um repositório do GitHub que contém imagens de rostos para serem processadas..
 
--Carregar e melhorar as imagens do diretório ./faces.
+2. Carregamento e Melhoria das Imagens: As imagens são carregadas de um diretório específico, redimensionadas para 250x250 pixels, e o contraste é aumentado para melhorar a qualidade visual.
 
--Gerar os embeddings das imagens usando o modelo DeepFace.
+3.Geração de Embeddings: Utiliza a biblioteca DeepFace para gerar embeddings (representações vetoriais) de cada imagem. O modelo Facenet é empregado para capturar características faciais relevantes..
 
--Agrupar os embeddings usando o algoritmo KMeans com 10 clusters.
+4. Agrupamento de Embeddings: Os embeddings são agrupados utilizando o algoritmo KMeans para formar 10 clusters, permitindo a identificação de imagens similares.
 
--Reorganizar os grupos para garantir 10 grupos(0-9) com exatamente 4 imagens similares.
+5. Reorganização dos Grupos: Os grupos são reorganizados para garantir que cada um contenha exatamente 4 imagens similares, baseando-se na similaridade de cosseno entre os embeddings. 
 
--Exibir a visualização dos grupos finais.
+6. Visualização dos Grupos: As imagens agrupadas são visualizadas em um gráfico, onde cada grupo de imagens é exibido em uma linha separada, facilitando a análise visual dos resultados
 
-5. Exemplo de Saída
+## Exemplo de Saída
    
 ![Sáida](https://github.com/Camillabgarcia/agrupamento_facial/blob/main/Resultado.jpg?raw=true)

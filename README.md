@@ -17,9 +17,13 @@ agrupamento_facial/
 
 Antes de executar o projeto, certifique-se de que você possui as seguintes dependências instaladas:
 
-- Python 3.6 ou superior.
-- pip (gerenciador de pacotes do Python).
-- Bibliotecas Python a serem instaladas: `numpy`, `deepface`, `opencv-python`, `Pillow`, `scikit-learn`, `matplotlib`.
+- NumPy: pip install numpy
+- DeepFace: pip install deepface
+- OpenCV: pip install opencv-python
+- Pillow: pip install Pillow
+- scikit-learn: pip install scikit-learn
+- Matplotlib: pip install matplotlib
+- Google Colab: Se você estiver executando este código no Google Colab, algumas bibliotecas específicas do Colab serão necessárias.
 
 ## Instalação
 1. Baixe o repositório do projeto diretamente do GitHub:

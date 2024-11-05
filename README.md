@@ -36,7 +36,7 @@ Antes de executar o projeto, certifique-se de que você possui as seguintes depe
 
 2. Carregamento e Melhoria das Imagens: As imagens são carregadas de um diretório específico, redimensionadas para 250x250 pixels, e o contraste é aumentado para melhorar a qualidade visual.
 
-3.Geração de Embeddings: Utiliza a biblioteca DeepFace para gerar embeddings (representações vetoriais) de cada imagem. O modelo Facenet é empregado para capturar características faciais relevantes..
+3. Geração de Embeddings: Utiliza a biblioteca DeepFace para gerar embeddings (representações vetoriais) de cada imagem. O modelo Facenet é empregado para capturar características faciais relevantes..
 
 4. Agrupamento de Embeddings: Os embeddings são agrupados utilizando o algoritmo KMeans para formar 10 clusters, permitindo a identificação de imagens similares.
 

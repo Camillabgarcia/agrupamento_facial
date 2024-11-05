@@ -15,7 +15,7 @@ agrupamento_facial/
 
 ## Pré-requisitos
 
-Antes de executar o projeto, certifique-se de que você possui o seguinte instalado:
+Antes de executar o projeto, certifique-se de que você possui as seguintes dependências instaladas:
 
 - Python 3.6 ou superior.
 - pip (gerenciador de pacotes do Python).
@@ -38,17 +38,26 @@ Antes de executar o projeto, certifique-se de que você possui o seguinte instal
 2. Execute o script agrupamento_por_semelhanca.ipynb no Google Colab ou em um ambiente Jupyter Notebook.
 
 3. Importações necessária:
+   
 import os
+
 import numpy as np
+
 import git
+
 from deepface import DeepFace
+
 import cv2
+
 from PIL import Image, ImageEnhance
+
 from sklearn.cluster import KMeans
+
 from sklearn.metrics.pairwise import cosine_similarity
+
 import matplotlib.pyplot as plt
 
-4. O script irá:
+5. O script irá:
 
 -Clonar o repositório do projeto, caso não exista localmente.
 

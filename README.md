@@ -1,4 +1,5 @@
 **Agrupamento Facial por Semelhança**
+
 Este projeto é uma aplicação para agrupar imagens de rostos semelhantes utilizando técnicas de aprendizado de máquina e processamento de imagem. A aplicação lê um dataset de rostos, gera embeddings usando a 
 biblioteca **DeepFace** e utiliza o algoritmo KMeans para agrupar as imagens de acordo com a similaridade.
 
